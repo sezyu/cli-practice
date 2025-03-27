@@ -17,4 +17,5 @@ model = Model(args.weight, args.intercept)
 
 input_data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 output_data = model.predict(input_data)
+
 print(output_data)

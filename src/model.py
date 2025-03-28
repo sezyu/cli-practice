@@ -58,7 +58,8 @@ class Model:
         float
             Input data
         """
-        return self.weight * x + self.intercept 
+        return self.weight * x + self.intercept
+
     def predict(self, data: List[float]) -> List[float]:
         """
         Method to predict the output of the model
@@ -74,4 +75,3 @@ class Model:
             Output data
         """
         return [self.calc(x_i) for x_i in data]
-    

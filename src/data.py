@@ -41,4 +41,3 @@ def write_data(file_path: str, data: List[float]) -> None:
         writer = csv.writer(file)
         for value in data:
             writer.writerow([value])
-            
